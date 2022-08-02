@@ -1,0 +1,16 @@
+{
+  "name": "mattjhand-eleventy",
+  "version": "1.0.0",
+  "description": "mattjhand.com static site generated with eleventy",
+  "scripts": {
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'mattjhand-eleventy'",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
+  "author": "Matt Hand",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
