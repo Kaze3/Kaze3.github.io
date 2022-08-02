@@ -4,7 +4,7 @@
   "description": "mattjhand.com static site generated with eleventy",
   "scripts": {
     "build": "env NODE_ENV=production npx eleventy --pathprefix 'Kaze3.github.io'",
-    "serve": "npx eleventy --serve",
+    "serve": "npx eleventy --serve --port=8081",
     "debug": "DEBUG=* npx eleventy",
     "test": "jest"
   },
